@@ -1,7 +1,7 @@
 {
   "name": "@anymud/bun-plugin-dts",
   "author": "Kyle Tse <shtse8@gmail.com>",
-  "version": "v1.0.2",
+  "version": "v1.0.3",
   "scripts": {
     "test": "bun test",
     "build": "bun build.ts"
