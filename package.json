@@ -33,5 +33,26 @@
   "peerDependencies": {
     "typescript": "^5.0.0"
   },
-  "keywords": []
+  "keywords": [
+    "bun",
+    "bun-plugins",
+    "typescript",
+    "dts",
+    "dts-generator",
+    "type-definitions",
+    "typescript-definitions",
+    "bun-build-tool",
+    "automatic-dts",
+    "typescript-plugin",
+    "bun-typescript",
+    "definition-files",
+    "code-generation",
+    "bun-build-plugin",
+    "bun-development",
+    "bun-javascript",
+    "js-to-ts",
+    "bun-js",
+    "typescript-support",
+    "bun-build-system"
+  ]
 }
