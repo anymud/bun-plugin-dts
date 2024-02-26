@@ -1,0 +1,37 @@
+{
+  "name": "@anymud/bun-plugin-dts",
+  "author": "Kyle Tse <shtse8@gmail.com>",
+  "version": "v1.0.0",
+  "scripts": {
+    "test": "bun test",
+    "build": "bun build.ts"
+  },
+  "description": "",
+  "license": "MIT",
+  "repository": "https://github.com/anymud/bun-plugin-dts",
+  "private": false,
+  "sideEffects": false,
+  "exports": {
+    ".": {
+      "import": "./dist/index.js"
+    }
+  },
+  "module": "dist/index.js",
+  "types": "dist/index.d.ts",
+  "files": [
+    "dist"
+  ],
+  "type": "module",
+  "dependencies": {
+    "dts-bundle-generator": "^9.3.1",
+    "get-tsconfig": "^4.7.2",
+    "consola": "^3.2.3"
+  },
+  "devDependencies": {
+    "@types/bun": "latest"
+  },
+  "peerDependencies": {
+    "typescript": "^5.0.0"
+  },
+  "keywords": []
+}
